@@ -1,6 +1,6 @@
 export default function Pagination({ page, totalPages, setPage, loading }) {
   return (
-    <div className="flex items-center gap-2">
+  <div className="flex flex-wrap items-center gap-2">
       <button
         onClick={() => setPage((p) => Math.max(1, p - 1))}
         disabled={page <= 1 || loading}

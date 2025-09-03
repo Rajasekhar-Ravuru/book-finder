@@ -2,9 +2,9 @@ export default function SearchForm({ query, setQuery, searchBy, setSearchBy, onS
   const canSearch = query.trim().length > 0;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6 space-y-6">
+    <div className="max-w-8xl mx-auto px-4 py-6 space-y-6">
     <section className="bg-white p-4 rounded shadow-sm ">
-      <form onSubmit={onSubmit} className="flex flex-col md:flex-row gap-3">
+     <form onSubmit={onSubmit} className="flex flex-col sm:flex-row sm:flex-wrap gap-3 w-full">
         <div className="flex items-center gap-2 max-w-8xl mx-auto">
           <select
             value={searchBy}
@@ -18,7 +18,7 @@ export default function SearchForm({ query, setQuery, searchBy, setSearchBy, onS
         </div>
 
         <input
-         className="flex-grow min-w-0 border rounded px-3 py-2"
+          className="flex-grow min-w-[0] w-full sm:w-auto border rounded px-3 py-2"
           placeholder={`Search by ${searchBy}… e.g. "harry potter"`}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
