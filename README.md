@@ -40,4 +40,9 @@ A React + Vite web application that allows users to search for books using the O
 
 - **Repo:** (https://github.com/Rajasekhar-Ravuru/book-finder.git)
 
+##  Demo Video
+Watch the live demo and code walkthrough using the link below:
+
+[Watch the Book Finder App Demo](https://www.loom.com/share/4671ddd1a8124d0aa9da229dd453cd2d?sid=e94983e8-eca6-4b41-9055-93545cb402e2)
+
 
